@@ -6,7 +6,7 @@ import sqlite3
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from functools import partial
-subprocess.run(["pyside6-uic", "src/__ui/form.ui", "-o", "src/__ui/ui_mainwindow.py"], check=True)
+# subprocess.run(["pyside6-uic", "src/__ui/form.ui", "-o", "src/__ui/ui_mainwindow.py"], check=True)
 COFFEE_DIR = os.path.dirname(os.path.abspath(__file__))
 SRC_DIR = os.path.join(COFFEE_DIR, "..") 
 
